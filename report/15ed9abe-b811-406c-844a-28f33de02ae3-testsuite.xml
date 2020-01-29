@@ -1,0 +1,49 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1580318348352" stop="1580318349195">
+  <name>scripts.test02_mis</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1580318348352" status="passed" stop="1580318348523">
+      <name>TestMis.test01_mis_login[testid-testpwd123]</name>
+      <attachments>
+        <attachment source="edbe81ed-475e-48fa-aeaa-81af75d84eba-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="9dbfe5de-34ef-4ef1-a885-5d282c6cead7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5917-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1580318348525" status="passed" stop="1580318349064">
+      <name>TestMis.test02_mis_search</name>
+      <attachments>
+        <attachment source="a33d2a64-aec8-4416-a2f5-a898c051d7e7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5917-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1580318349065" status="passed" stop="1580318349195">
+      <name>TestMis.test03_mis_audit</name>
+      <attachments>
+        <attachment source="17a641e8-5a49-41e0-ad40-024a218011c7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="5917-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

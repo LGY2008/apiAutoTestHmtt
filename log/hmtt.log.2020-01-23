@@ -1,0 +1,5 @@
+2020-01-23 04:10:10,085 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-23 04:10:10,086 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-23 04:10:10,086 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-23 04:10:10,199 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzk3MzExMjIsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.EU0hGQvd-S2Xu_6nTXaR22u91JFJ01VawKqASycgrMQ'}
+2020-01-23 04:10:10,199 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！

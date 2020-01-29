@@ -1,0 +1,2 @@
+api_app.py                  38 INFO     正在调用app查询指定频道下所有文章接口方法，请求参数：{'channel_id': '7', 'timestamp': 1580318349, 'with_top': 1} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzIsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.ij4N-RP6M04Km6KE3xgtHVwFJKjIKtjWopCHgd1Qrzs'}
+tool.py                     21 INFO     正在调用公共断言方法！

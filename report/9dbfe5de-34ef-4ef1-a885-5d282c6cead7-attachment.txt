@@ -1,0 +1,3 @@
+api_mis.py                  31 INFO     正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NjksInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-Epn3j6p_ohOwDa8n6jF6ziScap2YhlQMtKfFZm42Bg'}
+tool.py                     15 INFO     正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.gv6vj0lKv6VSdkfwYouCQ6jozcl5nDMCdpk0dXlz5nE'}
+tool.py                     21 INFO     正在调用公共断言方法！

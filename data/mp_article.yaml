@@ -1,0 +1,5 @@
+mp_article001:
+  title: "test-inter-001"
+  content: "今天天气不错，适合做接口测试！"
+  channel_id: "7"
+  channel: "数据库"

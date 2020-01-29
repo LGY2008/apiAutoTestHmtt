@@ -1,0 +1,124 @@
+2020-01-30 00:51:52,858 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-30 00:51:52,859 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-30 00:51:52,860 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-30 00:51:53,006 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQwMzUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Q3hd6QhLGVJIHmZrE7JZGj27m-OGG_Pw9YQL643Fj8s'}
+2020-01-30 00:51:53,006 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:51:53,009 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2020-01-30 00:51:53,094 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:51:53,097 INFO [api_mis.py(__init__:14)] - 正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-30 00:51:53,097 INFO [api_mis.py(__init__:17)] - 正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:51:53,097 INFO [api_mis.py(__init__:20)] - 正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:51:53,098 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQwMzUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.Q3hd6QhLGVJIHmZrE7JZGj27m-OGG_Pw9YQL643Fj8s'}
+2020-01-30 00:51:54,128 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQwMzYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.aEU2eDO4iP14_3Evqr6-fHLEPDLO-9MoTNEzldAiE5s'}
+2020-01-30 00:51:54,128 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:51:54,130 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理系统 查询文章接口，请求数据: {'title': 'test-inter-001', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQwMzYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.aEU2eDO4iP14_3Evqr6-fHLEPDLO-9MoTNEzldAiE5s'}
+2020-01-30 00:51:54,638 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:51:54,641 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理系统 审核文章接口，请求数据: {'article_ids': [1222563530117480448], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQwMzYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.aEU2eDO4iP14_3Evqr6-fHLEPDLO-9MoTNEzldAiE5s'}
+2020-01-30 00:51:54,858 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:51:54,936 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQwMzYsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.QbHIT0lOgTHDVTGe4nxCbsKE0wk4R3YRvXxIQKPAmZ4'}
+2020-01-30 00:51:54,937 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:51:54,984 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:08,309 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-30 00:55:08,309 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-30 00:55:08,310 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-30 00:55:08,388 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyMzEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.fEaNXZU4tYH8CFsUkEkVmKKU0YMR0HwssuoRfb2X3-U'}
+2020-01-30 00:55:08,389 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:08,392 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2020-01-30 00:55:08,453 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:08,456 INFO [api_mis.py(__init__:14)] - 正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-30 00:55:08,456 INFO [api_mis.py(__init__:17)] - 正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:55:08,456 INFO [api_mis.py(__init__:20)] - 正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:55:08,457 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyMzEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.fEaNXZU4tYH8CFsUkEkVmKKU0YMR0HwssuoRfb2X3-U'}
+2020-01-30 00:55:08,647 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyMjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.IB7ax9DVSTmFUEzrJemvo60I0kp_isWg3uaJggo6wDg'}
+2020-01-30 00:55:08,647 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:08,650 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理系统 查询文章接口，请求数据: {'title': 'test-inter-001', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyMjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.IB7ax9DVSTmFUEzrJemvo60I0kp_isWg3uaJggo6wDg'}
+2020-01-30 00:55:09,170 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:09,173 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理系统 审核文章接口，请求数据: {'article_ids': [1222564349537681408], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyMjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.IB7ax9DVSTmFUEzrJemvo60I0kp_isWg3uaJggo6wDg'}
+2020-01-30 00:55:09,272 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:09,331 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyMzEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.hgGhcu8ZvvkPrsKVyMKLKghTE_XpD5YsxVSLG3ha8Hw'}
+2020-01-30 00:55:09,331 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:09,450 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:35,077 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-30 00:55:35,078 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-30 00:55:35,079 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-30 00:55:35,154 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNTcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.dFsjbUh7hYKTWisMZSTGEiAfBHu4L2WHcMos8HH1qi0'}
+2020-01-30 00:55:35,154 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:35,157 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2020-01-30 00:55:35,216 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:35,218 INFO [api_mis.py(__init__:14)] - 正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-30 00:55:35,218 INFO [api_mis.py(__init__:17)] - 正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:55:35,218 INFO [api_mis.py(__init__:20)] - 正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:55:35,218 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNTcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.dFsjbUh7hYKTWisMZSTGEiAfBHu4L2WHcMos8HH1qi0'}
+2020-01-30 00:55:35,381 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNTYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.T-8oqSGsb84RIdW9-EGl0ofNIAnloRwGo5ci8AWdV0E'}
+2020-01-30 00:55:35,381 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:35,384 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理系统 查询文章接口，请求数据: {'title': 'test-inter-001', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNTYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.T-8oqSGsb84RIdW9-EGl0ofNIAnloRwGo5ci8AWdV0E'}
+2020-01-30 00:55:35,983 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:35,986 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理系统 审核文章接口，请求数据: {'article_ids': [1222564461794033664], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNTYsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.T-8oqSGsb84RIdW9-EGl0ofNIAnloRwGo5ci8AWdV0E'}
+2020-01-30 00:55:36,110 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:36,171 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNTgsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.obCQWTe5JZ5FgtYYNc3_xwIR0RdMOaNgn0dh17doAPA'}
+2020-01-30 00:55:36,171 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:36,310 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:46,475 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-30 00:55:46,475 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-30 00:55:46,476 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-30 00:55:46,552 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNjgsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.o-BIDo7T_Q-Dfeh3oSi-PMNZlftR2-slOxQJZfZ2tdQ'}
+2020-01-30 00:55:46,552 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:46,555 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2020-01-30 00:55:46,616 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:46,619 INFO [api_mis.py(__init__:14)] - 正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-30 00:55:46,619 INFO [api_mis.py(__init__:17)] - 正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:55:46,619 INFO [api_mis.py(__init__:20)] - 正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 00:55:46,620 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNjgsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.o-BIDo7T_Q-Dfeh3oSi-PMNZlftR2-slOxQJZfZ2tdQ'}
+2020-01-30 00:55:46,810 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.BtstR6-equcv2hF9vQhgLxth-PM3ntPdxlo0sl2Y5pk'}
+2020-01-30 00:55:46,810 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:46,813 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理系统 查询文章接口，请求数据: {'title': 'test-inter-001', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.BtstR6-equcv2hF9vQhgLxth-PM3ntPdxlo0sl2Y5pk'}
+2020-01-30 00:55:47,442 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:47,445 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理系统 审核文章接口，请求数据: {'article_ids': [1222564509600710656], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNjksImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.BtstR6-equcv2hF9vQhgLxth-PM3ntPdxlo0sl2Y5pk'}
+2020-01-30 00:55:47,577 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:47,643 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQyNjgsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.KUFPxuCcmG3lFaxW6zb-Z9Gkysr5VtAWaCMJ_6DyZ9E'}
+2020-01-30 00:55:47,643 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 00:55:47,788 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:05,961 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-30 01:05:05,961 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-30 01:05:05,963 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-30 01:05:06,078 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQ4MjcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.k6n1WeR37HCwr06MxbFwQdO9L8AvprmTUcgBV6btGK0'}
+2020-01-30 01:05:06,078 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:06,081 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2020-01-30 01:05:06,147 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:06,150 INFO [api_mis.py(__init__:14)] - 正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-30 01:05:06,150 INFO [api_mis.py(__init__:17)] - 正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 01:05:06,150 INFO [api_mis.py(__init__:20)] - 正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 01:05:06,151 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQ4MjcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.k6n1WeR37HCwr06MxbFwQdO9L8AvprmTUcgBV6btGK0'}
+2020-01-30 01:05:06,308 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQ4MjgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.zOOiZxG-cbMrUDoxaZEyQvtfB4UGHMZRygSRHqxzWBY'}
+2020-01-30 01:05:06,309 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:06,312 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理系统 查询文章接口，请求数据: {'title': 'test-inter-001', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQ4MjgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.zOOiZxG-cbMrUDoxaZEyQvtfB4UGHMZRygSRHqxzWBY'}
+2020-01-30 01:05:06,886 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:06,888 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理系统 审核文章接口，请求数据: {'article_ids': [1222566856527708160], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQ4MjgsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.zOOiZxG-cbMrUDoxaZEyQvtfB4UGHMZRygSRHqxzWBY'}
+2020-01-30 01:05:07,040 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:07,101 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjQ4MjksInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.CB8QUIWUURYI0J8_EGYOgrNcH1lKUoJ-3baTroN4_r4'}
+2020-01-30 01:05:07,102 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:05:07,235 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:08,160 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-30 01:19:08,160 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-30 01:19:08,161 INFO [api_mp.py(api_mp_login:28)] - 正在调用自媒体登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'}
+2020-01-30 01:19:08,279 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NjksInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-Epn3j6p_ohOwDa8n6jF6ziScap2YhlQMtKfFZm42Bg'}
+2020-01-30 01:19:08,279 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:08,283 INFO [api_mp.py(api_mp_article:43)] - 正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+2020-01-30 01:19:08,350 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:08,353 INFO [api_mis.py(__init__:14)] - 正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-30 01:19:08,353 INFO [api_mis.py(__init__:17)] - 正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 01:19:08,353 INFO [api_mis.py(__init__:20)] - 正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-30 01:19:08,354 INFO [api_mis.py(api_mis_login:31)] - 正在调用后台管理系统 登录接口，请求数据: {'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NjksInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.-Epn3j6p_ohOwDa8n6jF6ziScap2YhlQMtKfFZm42Bg'}
+2020-01-30 01:19:08,522 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.gv6vj0lKv6VSdkfwYouCQ6jozcl5nDMCdpk0dXlz5nE'}
+2020-01-30 01:19:08,522 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:08,525 INFO [api_mis.py(api_mis_search:44)] - 正在调用后台管理系统 查询文章接口，请求数据: {'title': 'test-inter-001', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.gv6vj0lKv6VSdkfwYouCQ6jozcl5nDMCdpk0dXlz5nE'}
+2020-01-30 01:19:09,063 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:09,066 INFO [api_mis.py(api_mis_audit:57)] - 正在调用后台管理系统 审核文章接口，请求数据: {'article_ids': [1222570395404599296], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.gv6vj0lKv6VSdkfwYouCQ6jozcl5nDMCdpk0dXlz5nE'}
+2020-01-30 01:19:09,194 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:09,197 INFO [api_app.py(__init__:15)] - 正在初始化app应用登录url: http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-01-30 01:19:09,197 INFO [api_app.py(__init__:18)] - 正在初始化app应用查询频道下所有文章url: http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-01-30 01:19:09,198 INFO [api_app.py(api_app_login:24)] - 正在调用app登录接口方法，请求参数：{'mobile': '13812345678', 'code': '246810'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzEsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.gv6vj0lKv6VSdkfwYouCQ6jozcl5nDMCdpk0dXlz5nE'}
+2020-01-30 01:19:09,252 INFO [tool.py(common_token:15)] - 正在提取token， 提取后的header为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzIsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.ij4N-RP6M04Km6KE3xgtHVwFJKjIKtjWopCHgd1Qrzs'}
+2020-01-30 01:19:09,252 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！
+2020-01-30 01:19:09,255 INFO [api_app.py(api_app_article:38)] - 正在调用app查询指定频道下所有文章接口方法，请求参数：{'channel_id': '7', 'timestamp': 1580318349, 'with_top': 1} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODAzMjU2NzIsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.ij4N-RP6M04Km6KE3xgtHVwFJKjIKtjWopCHgd1Qrzs'}
+2020-01-30 01:19:09,352 INFO [tool.py(common_assert:21)] - 正在调用公共断言方法！

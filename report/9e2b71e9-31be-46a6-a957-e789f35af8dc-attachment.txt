@@ -1,0 +1,2 @@
+api_mp.py                   43 INFO     正在调用自媒体发布文章接口，请求数据：{'title': 'test-inter-001', 'content': '今天天气不错，适合做接口测试！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}
+tool.py                     21 INFO     正在调用公共断言方法！

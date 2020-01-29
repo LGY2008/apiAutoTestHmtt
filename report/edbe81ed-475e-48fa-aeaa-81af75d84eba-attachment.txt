@@ -1,0 +1,3 @@
+api_mis.py                  14 INFO     正在初始化后台管理系统 登录url: http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+api_mis.py                  17 INFO     正在初始化后台管理系统 查询文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles
+api_mis.py                  20 INFO     正在初始化后台管理系统 审核文章url: http://ttapi.research.itcast.cn/mis/v1_0/articles

@@ -1,0 +1,2 @@
+api_mp.py                   14 INFO     正在初始化自媒体登录url: http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+api_mp.py                   17 INFO     正在初始化自媒体发布文章url: http://ttapi.research.itcast.cn/mp/v1_0/articles
